@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-30T16:47:13 IST" name="Default suite" finished-at="2024-06-30T16:49:17 IST" duration-ms="124094">
+    <groups>
+    </groups>
+    <test started-at="2024-06-30T16:47:13 IST" name="Default test" finished-at="2024-06-30T16:49:17 IST" duration-ms="124094">
+      <class name="switchcare.SwitchCareTest">
+        <test-method is-config="true" signature="bt()[pri:0, instance:switchcare.SwitchCareTest@a38c7fe]" started-at="2024-06-30T16:47:13 IST" name="bt" finished-at="2024-06-30T16:47:24 IST" duration-ms="11232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="loginPage()[pri:0, instance:switchcare.SwitchCareTest@a38c7fe]" started-at="2024-06-30T16:47:24 IST" name="loginPage" finished-at="2024-06-30T16:47:46 IST" duration-ms="22399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method signature="selectfood()[pri:1, instance:switchcare.SwitchCareTest@a38c7fe]" started-at="2024-06-30T16:47:46 IST" name="selectfood" finished-at="2024-06-30T16:47:48 IST" duration-ms="2059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectfood -->
+        <test-method signature="breakfast()[pri:2, instance:switchcare.SwitchCareTest@a38c7fe]" started-at="2024-06-30T16:47:48 IST" name="breakfast" finished-at="2024-06-30T16:48:14 IST" duration-ms="26100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- breakfast -->
+        <test-method signature="Lunch()[pri:3, instance:switchcare.SwitchCareTest@a38c7fe]" started-at="2024-06-30T16:48:14 IST" name="Lunch" finished-at="2024-06-30T16:48:45 IST" duration-ms="30205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Lunch -->
+        <test-method signature="dinner()[pri:4, instance:switchcare.SwitchCareTest@a38c7fe]" started-at="2024-06-30T16:48:45 IST" name="dinner" finished-at="2024-06-30T16:49:17 IST" duration-ms="32002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dinner -->
+      </class> <!-- switchcare.SwitchCareTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

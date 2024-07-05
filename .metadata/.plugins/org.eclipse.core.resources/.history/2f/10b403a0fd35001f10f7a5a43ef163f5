@@ -1,0 +1,40 @@
+package HealthcareApp;
+
+import java.net.MalformedURLException;
+import java.util.List;
+
+import org.apache.commons.collections.bag.SynchronizedSortedBag;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.AndroidElement;
+import io.appium.java_client.android.nativekey.KeyEvent;
+import io.appium.java_client.remote.AndroidMobileCapabilityType;
+import io.appium.java_client.remote.MobileCapabilityType;
+
+public class SwitchCareTest {
+	
+	public static AndroidDriver<AndroidElement> capabilities(){
+		
+		DesiredCapabilities dc = new DesiredCapabilities();
+		dc.setCapability(MobileCapabilityType.DEVICE_NAME, "LAVA LXX503");
+		dc.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
+		dc.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.mysmitch.care");
+		dc.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "com.mysmitch.care.ui.main.home.modules.explore.invite.InvitationActivity");
+		
+		dc.setCapability(MobileCapabilityType.NO_RESET, true);
+		
+		return driver;
+		
+		
+	}
+
+	
+}
